@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="イル・ジャルディーノは、 緑豊かな空間で、ゆったりとイタリアンを味わえます。ランチタイムには、お得なセットメニューもご用意。">
+ <title>イタリアンレストランのサイト制作|予約ページ</title>
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="../css/style.css">
+ <link rel="stylesheet" href="../css/vegas.css">
+ <link rel="stylesheet" href="../css/hamburgers.css">
+ <link rel="shortcut icon" href="favicon.png">
+ <link rel="aple-touch-icon" href="../touch-icon.png">
+</head>
+<body id="top" class="form-page">
+ <header>
+  <h1>イル・ジャルディーノ <span>Il Giardino </span></h1>
+  <p class="tag-line">太陽の恵みを、食卓へ。</p>
+ </header>
+
+ <nav id="g-nav">
+  <ul>
+   <li><a href="../" data-en="TOP">トップ</a></li>
+   <li><a href="../index.html#news" data-en="NEWS">お知らせ</a></li>
+   <li><a href="../index.html#menu" data-en="MENU">メニュー</a></li>
+   <li><a href="../index.html#movie" data-en="MOVIE">動画</a></li>
+   <li><a href="../index.html#shop" data-en="SHOP">店舗情報</a></li>
+   <li><a href="../index.html#faq" data-en="FAQ">よくある質問</a></li>
+   <li><a href="#">X</a></li>
+   <li><a href="#">LINE</a></li>
+  </ul>
+ </nav>
+
+ <button class="hamburger hamburger--collapse" type="button" id="ham-btn">
+  <span class="hamburger-box" >
+    <span class="hamburger-inner"></span>
+  </span>
+ </button>
+
+
+
+ <div id="main-visual"></div><!-- /#main-visual -->
+
+ <div class="main-copy">
+  <h2>五感で楽しむ、イタリアの食文化。</h2>
+  <p class="lead">緑豊かな空間で、ゆったりとイタリアンを味わえます。<br>ランチタイムには、お得なセットメニューもご用意。<br>ご予約お待ちしております。</p>
+ </div><!-- /.main-copy -->
+
+<main>
+ <section id="form" class="content">
+<h3 data-en="RESERVE">予約フォーム</h3>
+<div class="form-inner">
+ <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSf_DBnJbdF1Z4NNgvdJIeEGfl1_hJMenA61XcLXiIXk6cIVew/viewform?embedded=true"  height="1465" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div><!-- /.form-inner -->
+ </section>
+</main>
+
+
+ <footer>
+<p><small>&copy; <span id="this-year"> </span>イル・ジャルディーノ</small></p>
+ </footer>
+
+ <script>
+  $(function(){
+//#g-formにリダイレクト
+let load = 0;
+$('$google-form').on('load',function(){
+load++;
+if(load > 1){
+  window.location.href = 'thanks.html'; //リダイクレトさせるファイルのパスを代入する
+}
+})
+  });
+</script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="../js/vegas.js"></script>
+ <script src="../js/script.js"></script>
+ 
+
+
+ </body>
+</html>
