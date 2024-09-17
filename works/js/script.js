@@ -52,16 +52,14 @@ $('#list-6').addClass('current').siblings('li').removeClass('current');
 });
 
 //多言語化用のリダイレクト
-$('#btn-ja').on('cikck',function(){
-$(this).href = '';
-});
+$('#btn-ja').href = 'https://michikawakeiichi2024.github.io/restaurant-site-multi/';
+
 
 //イタリア語のリダイレクト
-$('#btn-it').on('cikck',function(){
-$(this).href = '';
-});
+
+$('#btn-it').href = 'https://translate.google.com/translate?sl=ja&tl=it&u=michikawakeiichi2024.github.io/restaurant-site-multi/';
+
 
 //フランス語のリダイレクト
-$('#btn-fr').on('cikck',function(){
-$(this).href = '';
-});
+
+$('#btn-fr').href = 'https://translate.google.com/translate?sl=ja&tl=fr&u=michikawakeiichi2024.github.io/restaurant-site-multi/';
