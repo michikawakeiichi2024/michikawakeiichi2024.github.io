@@ -50,3 +50,18 @@ $('#list-6').addClass('current').siblings('li').removeClass('current');
 
 
 });
+
+//多言語化用のリダイレクト
+$('#btn-ja').on('cikck',function(){
+$(this).href = '';
+});
+
+//イタリア語のリダイレクト
+$('#btn-it').on('cikck',function(){
+$(this).href = '';
+});
+
+//フランス語のリダイレクト
+$('#btn-fr').on('cikck',function(){
+$(this).href = '';
+});
