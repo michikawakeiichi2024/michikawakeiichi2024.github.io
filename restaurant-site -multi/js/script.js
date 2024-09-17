@@ -1,9 +1,9 @@
 //vegasの呼び出し
 $('#main-visual').vegas({
   slides: [
-    { src: "/img/main-1.webp" },
-    { src: "/img/main-2.webp" },
-    { src: "/img/main-3.webp" },
+    { src: "/restaurant-site-multi/img/main-1.webp" },
+    { src: "/restaurant-site-multi/img/main-2.webp" },
+    { src: "/restaurant-site-multi/img/main-3.webp" },
   ],
   timer: false,
   transition: 'blur',
