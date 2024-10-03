@@ -1,0 +1,20 @@
+記載する動画URL
+
+1 <iframe width="560" height="315" src="https://www.youtube.com/embed/fuQP8RLpq4Y?si=GP_F3afJ67l_ynTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+2 <iframe width="560" height="315" src="https://www.youtube.com/embed/behPL2uKDqY?si=tBr2NQ5dSwYsmgMb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+3 <iframe width="560" height="315" src="https://www.youtube.com/embed/04gDl3BUVhE?si=Isltd_N9I1bNP9WW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+4 <iframe width="560" height="315" src="https://www.youtube.com/embed/D8gSPyAvrDk?si=G6SYK2Bb8rtLjrU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+5 <iframe width="560" height="315" src="https://www.youtube.com/embed/u4XcyhV-pjU?si=zf0VS-fGU21bSIvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+動画のタイトル
+
+1 【湘南の異端児】ゆっくり達の鉄道旅 ~ 江ノ島電鉄編 ~【ゆっくり鉄道旅】
+2 【ゆっくり解説＆案内】＃1 　江の島エスカーってなに？
+3 【ゆっくり実況】妖夢は江ノ島に行くようです【旅行】
+4 【鉄道旅ゆっくり実況】関東私鉄制覇の旅！ #52 湘南モノレール
+5 【イイ音♪】唸る！響く！江ノ電モーター音集【500形東洋IGBT-VVVF/抵抗制御1000形・2000形・10形・20形】

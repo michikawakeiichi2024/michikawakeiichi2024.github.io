@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3ページ目</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="container">
+<div class="wrapper">
+<div class="peges">
+<div class="pages-wrapper">
+<div class="text-box">
+<h2>【ゆっくり実況】妖夢は江ノ島に行くようです【旅行】</h2>
+
+<p>ゆっくり妖夢は、江ノ島駅に到着後、江ノ島神社や展望台、岩場などを訪れます。また、江ノ島で有名なシラス丼を食べます。<br>
+動画では、江ノ島の景色や観光スポットを紹介しています。また、ゆっくり妖夢が観光を楽しむ様子も映されています。</p>
+</div>
+</div><!-- /.pages-wrapper -->
+
+
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/04gDl3BUVhE?si=Isltd_N9I1bNP9WW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><!-- /.video-wrapper -->
+
+</div><!-- /.peges -->
+</div><!-- /.wrapper -->
+<a href="../page-4/" id="next">次のページへ</a>
+
+</div><!-- /.container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jquery.clever-infinite-scroll.js"></script>
+<script>
+		$('#container').cleverInfiniteScroll({
+			contentsWrapperSelector: '#container',
+			contentSelector: '.wrapper',
+			nextSelector: '#next',
+		});
+	</script>
+
+
+
+
+
+</body>
+</html>

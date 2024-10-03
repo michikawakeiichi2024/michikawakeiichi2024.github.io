@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ページ目</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="container">
+<div class="wrapper">
+<div class="peges">
+<div class="pages-wrapper">
+<div class="text-box">
+<h2>【湘南の異端児】ゆっくり達の鉄道旅 ~ 江ノ島電鉄編 ~【ゆっくり鉄道旅】</h2>
+
+<p>この動画は、ゆっくり魔理沙が江ノ電に乗る様子を撮影したものです。<br>
+ゆっくり魔理沙は、藤沢駅を出発し、鎌倉駅まで江ノ電に乗ります。途中、鵠沼駅、江ノ島駅、鎌倉高校前駅、七里ヶ浜駅、稲村ヶ崎駅、極楽寺駅などを訪れます。</p>
+</div>
+</div><!-- /.pages-wrapper -->
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/fuQP8RLpq4Y?si=GP_F3afJ67l_ynTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><!-- /.video-wrapper -->
+
+
+</div><!-- /.peges -->
+</div><!-- /.wrapper -->
+<a href="../page-2/" id="next">次のページへ</a>
+<p class="to-top"><a href="#top"><img src="img/to-top.svg" alt=""></a></p>
+</div><!-- /.container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jquery.clever-infinite-scroll.js"></script>
+<script>
+		$('#container').cleverInfiniteScroll({
+			contentsWrapperSelector: '#container',
+			contentSelector: '.wrapper',
+			nextSelector: '#next',
+		});
+	</script>
+
+</body>
+</html>

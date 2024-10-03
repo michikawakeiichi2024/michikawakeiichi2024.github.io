@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2ページ目</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="container">
+<div class="wrapper">
+<div class="peges">
+<div class="pages-wrapper">
+<div class="text-box">
+<h2>【ゆっくり解説＆案内】#1  江の島エスカーってなに？</h2>
+
+<p>この動画は、ゆっくり魔理沙と霊夢が江ノ島エスカーについて解説するものです。<br>
+江ノ島エスカーは、江ノ島にある有料のエスカレーターです。料金は360円、子供料金は半額です。管理運営は江ノ島電鉄が行っています。エスカレーターは4基あり、すべて登り限定です。車椅子対応はしていません。</p>
+</div>
+</div><!-- /.pages-wrapper -->
+
+<div class="video-wrapper">
+ <iframe src="https://www.youtube.com/embed/behPL2uKDqY?si=tBr2NQ5dSwYsmgMb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><!-- /.video-wrapper -->
+
+</div><!-- /.peges -->
+</div><!-- /.wrapper -->
+<a href="../page-3/" id="next">次のページへ</a>
+
+</div><!-- /.container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jquery.clever-infinite-scroll.js"></script>
+<script>
+		$('#container').cleverInfiniteScroll({
+			contentsWrapperSelector: '#container',
+			contentSelector: '.wrapper',
+			nextSelector: '#next',
+		});
+	</script>
+</body>
+</html>
